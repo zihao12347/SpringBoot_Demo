@@ -29,9 +29,10 @@ package com.itheima;
  *                  4.参数引用符：${}
  *
  *              3获取配置文件中的数据：（3种）
- *                  1.@value("${}")注解获取：只能获取配置文件中某一项的值
+ *                  1.@value("${}")注解获取：标注在属性上，只能获取配置文件中某一项的值
  *
- *                  2.@ConfigurationProperties(prefix="配置文件中的key")注解获取：可以获取配置文件中对象格式的数据，
+ *                  2.@ConfigurationProperties(prefix="配置文件中的key")注解获取：标注在类上
+ *                              可以获取配置文件中对象格式的数据，
  *                             实体类提供setter方法， 并自动与实体类进行映射
  *
  *                  3.通过Environment对象：获取配置文件中所有的数据

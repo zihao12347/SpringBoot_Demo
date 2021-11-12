@@ -1,0 +1,32 @@
+#主配置文档块，实现不同配置的激活
+#默认配置
+server:
+  port: 8086
+#激活不同环境的配置
+spring:
+  profiles:
+    active: dev
+---
+#dev:开发文档块
+server:
+  port: 8087
+#为当前配置命名
+spring:
+  profiles: dev
+
+
+---
+#test：测试文档块
+server:
+  port: 8088
+
+spring:
+  profiles: test
+
+---
+#pro：生产文档块
+server:
+  port: 8089
+
+spring:
+  profiles: pro
