@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person",
+      "type": "com.itheima.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

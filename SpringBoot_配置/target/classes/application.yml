@@ -1,0 +1,29 @@
+server:
+  port: 8083
+
+name: abc
+
+person:
+  name: ${name} #引用name的参数
+
+#对象格式
+personOne:
+     name: zhangsan
+#对象格式的行内写法
+personTwo: {name: lisi}
+
+#数组格式
+address:
+   -beijing
+   -nanchang
+
+#数组格式的行内写法
+addressTwo: [beijing,nanchang]
+
+#纯量
+msgOne:
+  'hello \n world' #单引号忽略转义字符
+msgTwo:
+  "hello \n world" #双引号可识别转义字符
+
+
