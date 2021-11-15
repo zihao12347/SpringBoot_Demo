@@ -1,0 +1,24 @@
+server:
+  port: 8083
+
+#配置连接其他服务器中的redis
+spring:
+  redis:
+    host: 172.245.34.184
+    port: 6379
+    password: zihao
+  #配置连接mybatis数据库信息
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql:///springboot
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  #config-location配置mybatis的主配置文件
+  #mapper-locaiton:配置mapper映射配置文件
+  mapper-locations: classpath:mapper/*Mapper.xml
+  #type-aliases-package配置pojo实体类别名扫描
+  type-aliases-package: com.itheima.domain
+
+
+

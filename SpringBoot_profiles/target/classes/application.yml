@@ -1,11 +1,11 @@
 #主配置文档块，实现不同配置的激活
 #默认配置
-server:
-  port: 8086
+#server:
+#  port: 8086
 #激活不同环境的配置
-spring:
-  profiles:
-    active: dev
+#spring:
+#  profiles:
+ #   active: dev
 ---
 #dev:开发文档块
 server:
