@@ -1,0 +1,6 @@
+server:
+  port: 8089
+
+hello:
+  name: "杨浩"
+  address: "南昌"

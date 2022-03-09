@@ -1,0 +1,3 @@
+com\starter\logger\config\MyLoggerAutoConfigration.class
+com\starter\logger\anno\MyLogger.class
+com\starter\logger\interceptor\MyLogInterceptor.class
